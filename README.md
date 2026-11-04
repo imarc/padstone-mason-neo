@@ -1,6 +1,6 @@
 # Padstone Mason Neo
 
-Companion Craft plugin that registers a **Neo** structure adapter for [Padstone Mason](../padstone-mason). Matrix-only sites do not need this package.
+Companion Craft plugin that registers a **Neo** structure adapter for [Padstone Mason](https://github.com/imarc/padstone-mason). Matrix-only sites do not need this package.
 
 ## Requirements
 
