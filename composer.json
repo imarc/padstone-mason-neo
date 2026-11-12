@@ -7,7 +7,7 @@
   "require": {
     "php": "^8.2",
     "craftcms/cms": "^5.3.0",
-    "imarc/craft-padstone-mason": "^1.0.0",
+    "imarc/craft-padstone-mason": "dev-main",
     "spicyweb/craft-neo": "^5.2"
   },
   "autoload": {
