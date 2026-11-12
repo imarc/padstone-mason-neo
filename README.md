@@ -5,7 +5,7 @@ Companion Craft plugin that registers a **Neo** structure adapter for [Padstone 
 ## Requirements
 
 - Craft CMS ^5.3
-- `imarc/craft-padstone-mason` `dev-main`
+- `imarc/craft-padstone-mason` ^0.1.0
 - `spicyweb/craft-neo` **^5.2** (covers 5.2–5.x; pre-5.2 create semantics are out of scope)
 
 ## Install order
