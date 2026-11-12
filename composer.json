@@ -2,7 +2,7 @@
   "name": "imarc/craft-padstone-mason-neo",
   "description": "Neo structure adapter for Padstone Mason (Content Designer via Spicy Web Neo).",
   "type": "craft-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "require": {
     "php": "^8.2",

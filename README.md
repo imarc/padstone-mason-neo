@@ -1,11 +1,11 @@
 # Padstone Mason Neo
 
-Companion Craft plugin that registers a **Neo** structure adapter for [Padstone Mason](https://github.com/imarc/padstone-mason). Matrix-only sites do not need this package.
+Companion Craft plugin that registers a **Neo** structure adapter for [Padstone Mason](https://packagist.org/packages/imarc/craft-padstone-mason). Matrix-only sites do not need this package.
 
 ## Requirements
 
 - Craft CMS ^5.3
-- `imarc/craft-padstone-mason` ^0.1.0
+- [`imarc/craft-padstone-mason`](https://packagist.org/packages/imarc/craft-padstone-mason) ^0.1.0
 - `spicyweb/craft-neo` **^5.2** (covers 5.2–5.x; pre-5.2 create semantics are out of scope)
 
 ## Install order
@@ -14,12 +14,13 @@ Companion Craft plugin that registers a **Neo** structure adapter for [Padstone 
 2. Install and enable **Padstone Mason**
 3. Install and enable **Padstone Mason Neo** (this plugin)
 
-In this monorepo, both Mason packages are path repositories. From the project root:
-
 ```bash
-composer require imarc/craft-padstone-mason-neo
+composer require imarc/craft-padstone-mason-neo:^0.1.0
+php craft plugin/install padstone-mason
 php craft plugin/install padstone-mason-neo
 ```
+
+That requirement also installs [`imarc/craft-padstone-mason`](https://packagist.org/packages/imarc/craft-padstone-mason). Enable Neo before either Mason plugin.
 
 ## What it does
 
